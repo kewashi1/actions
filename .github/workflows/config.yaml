@@ -13,3 +13,4 @@ jobs:
           java-version: '17'
           cache: 'gradle'
       - run: ./gradlew build
+      - run: ./gradlew test
