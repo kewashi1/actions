@@ -14,3 +14,4 @@ jobs:
           cache: 'gradle'
       - run: ./gradlew build
       - run: ./gradlew test
+      - run: ./gradlew ktlintCheck
