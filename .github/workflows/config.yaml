@@ -13,5 +13,4 @@ jobs:
           java-version: '8'
           cache: 'gradle'
       - run: ./gradlew build
-      - run: ./gradlew ktlintCheck
       - run: ./gradlew test
