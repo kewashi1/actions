@@ -1,6 +1,6 @@
 name: setup Java test
 on:
-  workflow_dispatch:
+  push:
 
 jobs:
   setup:
